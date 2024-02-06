@@ -1,0 +1,17 @@
+.certification {
+  &-container {
+    background-color: var(--bgColor-2);
+    padding: 2rem var(--padding);
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  &-container img {
+    text-align: center;
+    width: 45%;
+    margin: 5%;
+  }
+}
