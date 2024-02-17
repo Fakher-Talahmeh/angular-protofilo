@@ -7,7 +7,7 @@ import { MySkillsComponent } from './components/my-skills/my-skills.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeComponent,
   },
   {

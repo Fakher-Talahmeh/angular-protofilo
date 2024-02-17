@@ -4,7 +4,7 @@
 header {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 550px;
   height: 100px;
   background: none;
   align-items: center;
@@ -15,6 +15,7 @@ header {
   align-items: center;
   gap: 2em;
 }
+
 .navigation {
   a {
     position: relative;
@@ -54,4 +55,9 @@ header {
 }
 .download-cv:hover {
   background-color: rgb(115, 249, 249);
+}
+@media screen and (max-width: 575px) {
+  header {
+    display: none;
+  }
 }
