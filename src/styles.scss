@@ -1,6 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@1,900&display=swap");
 :root {
   --primaryColor: #ff274b;
   --secondaryColor: #f7bcf7;
@@ -15,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Libre Caslon Text", serif;
 }
 body {
   overflow: hidden;

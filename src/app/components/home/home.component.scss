@@ -15,28 +15,24 @@
     flex-direction: column;
     height: 100%;
     gap: 2em;
+    h1 {
+      font-weight: bold;
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 30px;
+    }
   }
 
   &-social i {
     margin-right: 2rem;
     width: 2.5rem;
     transition: 0.3s ease;
+    font-size: xx-large;
   }
 
   &-social i:hover {
     transform: scale(1.2);
-  }
-  &-social .facebook {
-    color: rgb(63, 63, 251);
-    font-size: xx-large;
-  }
-  &-social .instagram {
-    font-size: xx-large;
-    color: orangered;
-  }
-  &-social .linkedin {
-    font-size: xx-large;
-    color: rgb(11, 168, 168);
   }
 
   &-second {
@@ -54,7 +50,7 @@
 
   &-container-images > img {
     position: absolute;
-    left: 0;
+    left: -40%;
     transform: translateX(-20%);
     transition: bottom 1s, left 1s, top 1s;
     background-color: none;
@@ -63,7 +59,7 @@
   }
 
   &-container-images:hover .home-pic {
-    left: -20%;
+    left: -50%;
   }
 }
 @media screen and (max-width: 575px) {
