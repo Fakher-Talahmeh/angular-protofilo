@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MySkillsService } from './my-skills.service';
 
 @Component({
   selector: 'app-my-skills',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-skills.component.scss']
 })
 export class MySkillsComponent {
-
+  constructor(private skillsServ:MySkillsService){}
+  skills = this.skillsServ.skills;
 }
