@@ -76,59 +76,14 @@
   .home {
     width: 100%;
   }
-  nav {
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 82px;
-    padding-top: 0;
-    background-color: var(--bgColor-1);
-    border-radius: 1px solid var(--bgColor-2);
-  }
+  .home-first{
+    h1{
+      font-size: 25px ;
 
-  nav > a {
-    display: none;
-  }
+    }
+    h2{
+      font-size: 15px;
+    }
+    }
 
-  nav ul {
-    display: none;
-  }
-
-  nav ul li {
-    display: inline;
-    text-align: center;
-    margin: 50px;
-  }
-
-  .container-text {
-    bottom: 0em;
-  }
-
-  .social {
-    margin-top: 70px;
-  }
-
-  h3 {
-    margin-bottom: 70px;
-  }
-  .certification {
-    padding-right: 10px;
-  }
-  .certification img {
-    justify-self: center;
-    width: 300px;
-    height: 250px;
-    margin: 0 var(--padding);
-  }
-  footer {
-    align-items: center;
-    padding: var(--padding);
-  }
-  footer p {
-    padding: 0 0;
-    width: 100%;
-  }
-  #title {
-    display: inline;
-  }
 }
